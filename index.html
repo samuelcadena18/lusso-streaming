@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lusso Streaming</title>
+
+    <!-- Meta tags para Open Graph -->
+    <meta property="og:title" content="Lusso Streaming">
+    <meta property="og:description" content="Encuentra y adquiere tus plataformas de streaming favoritas en un solo lugar.">
+    <meta property="og:url" content="https://www.tu-tiendalusso.com"> <!-- Reemplaza con la URL de alojamiento real -->
+    <meta property="og:type" content="website">
+    
+    <!-- Meta descripción para SEO -->
+    <meta name="description" content="Compra tus plataformas de streaming favoritas, como Netflix, Disney+, HBO Max y más, con tan solo un clic.">
+    
+    <link rel="stylesheet" href="styles.css">
+</head> 
+<body>
+    <header>
+        <h1>Lusso Streaming</h1>
+        <p>Encuentra tu plataforma favorita para ver todo el contenido que deseas.</p>
+    </header>
+
+    <section class="tienda">
+        <h2>Plataformas Individuales</h2>
+        <div class="card">
+            <h3>Netflix</h3>
+            <p>Precio: $10.99/mes</p>
+            <button onclick="comprar('Netflix', '10.99')">Comprar</button>
+        </div>
+        <div class="card">
+            <h3>Disney+</h3>
+            <p>Precio: $7.99/mes</p>
+            <button onclick="comprar('Disney+', '7.99')">Comprar</button>
+        </div>
+        <!-- Más plataformas aquí -->
+    </section>
+
+    <!-- Nueva sección de Combos -->
+    <section class="combos">
+        <h2>Combos Especiales</h2>
+        <div class="combo-card" style="background-color: #ff9f43;">
+            <h3>Combo Familiar</h3>
+            <p>Incluye: Netflix + Disney+ + Star Plus</p>
+            <p>Precio: $25.99/mes</p>
+            <button onclick="comprar('Combo Familiar', '25.99')">Comprar Combo</button>
+        </div>
+        <div class="combo-card" style="background-color: #1dd1a1;">
+            <h3>Combo Premium</h3>
+            <p>Incluye: Netflix + HBO Max + Crunchyroll</p>
+            <p>Precio: $30.99/mes</p>
+            <button onclick="comprar('Combo Premium', '30.99')">Comprar Combo</button>
+        </div>
+        <!-- Más combos aquí -->
+    </section>
+
+    <footer>
+        <p>© 2023 Lusso Streaming</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
